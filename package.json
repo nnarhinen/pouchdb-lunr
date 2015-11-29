@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-lunr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Some PouchDB sugar around lunr.js",
   "main": "dist/pouchdb-lunr.js",
   "scripts": {
