@@ -11,7 +11,8 @@ npm install pouchdb pouchdb-lunr
 
 ```js
 import PouchDB from 'pouchdb';
-PouchDB.plugin(require('pouchdb-lunr'));
+import LunrPlugin from 'pouchdb-lunr';
+PouchDB.plugin(LunrPlugin);
 
 const db = new PouchDB('mydb');
 
